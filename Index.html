@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Barberia El Corte</title>
+    <meta
+      name="description"
+      content="Pagina simple para una barberia con servicios, horarios y contacto."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Barberia El Corte">
+        <span class="brand-mark">EC</span>
+        <span>Barberia El Corte</span>
+      </a>
+      <nav class="nav" aria-label="Navegacion principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <img
+          class="hero-image"
+          src="fondo.png"
+          alt="Interior moderno de una barberia con silla profesional"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Cortes clasicos y modernos</p>
+          <h1>Tu estilo empieza con un buen corte.</h1>
+          <p class="hero-copy">
+            Barberia de barrio con atencion cuidada, ambiente comodo y acabados
+            limpios para cada dia.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="tel:+15550123456">Llamar ahora</a>
+            <a class="button secondary" href="#servicios">Ver servicios</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" aria-label="Presentacion">
+        <div>
+          <p class="section-label">Bienvenido</p>
+          <h2>Cortes sin prisa, resultados con detalle.</h2>
+        </div>
+        <p>
+          Trabajamos cortes, barba y arreglo personal con una experiencia
+          sencilla: llegas, te sientas y sales listo.
+        </p>
+      </section>
+
+      <section class="section" id="servicios">
+        <div class="section-heading">
+          <p class="section-label">Servicios</p>
+          <h2>Lo esencial para verte bien</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div>
+              <h3>Corte de cabello</h3>
+              <p>Estilo clasico, moderno o degradado con acabado limpio.</p>
+            </div>
+            <span>$25</span>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Barba y perfilado</h3>
+              <p>Definicion de lineas, navaja y producto final.</p>
+            </div>
+            <span>$18</span>
+          </article>
+          <article class="service-card">
+            <div>
+              <h3>Corte + barba</h3>
+              <p>Servicio completo para renovar tu look en una visita.</p>
+            </div>
+            <span>$38</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="horarios">
+        <div class="panel">
+          <p class="section-label">Horarios</p>
+          <h2>Abierto toda la semana</h2>
+          <ul class="schedule">
+            <li><span>Lunes a viernes</span><strong>10:00 AM - 7:00 PM</strong></li>
+            <li><span>Sabado</span><strong>9:00 AM - 6:00 PM</strong></li>
+            <li><span>Domingo</span><strong>11:00 AM - 4:00 PM</strong></li>
+          </ul>
+        </div>
+        <div class="panel accent" id="contacto">
+          <p class="section-label">Contacto</p>
+          <h2>Reserva tu silla</h2>
+          <p>123 Calle Principal, Tu Ciudad</p>
+          <p><a href="tel:+15550123456">(555) 012-3456</a></p>
+          <p><a href="mailto:hola@barberiaelcorte.com">hola@barberiaelcorte.com</a></p>
+          <a class="button dark" href="tel:+15550123456">Agendar por telefono</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Barberia El Corte</p>
+      <p>Cortes, barba y estilo personal.</p>
+    </footer>
+  </body>
+</html>
